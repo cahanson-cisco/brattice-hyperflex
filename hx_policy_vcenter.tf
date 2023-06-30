@@ -8,7 +8,7 @@ resource "intersight_hyperflex_vcenter_config_policy" "mercury-vcenter-policy" {
   hostname    = "vcenter.brattice.dovetail-lab.ca"
   username    = "administrator@vsphere.local"
   password    = var.vcenter-password
-  data_center = "MERCURY"
+  data_center = "SOLIS"
 }
 
 resource "intersight_hyperflex_vcenter_config_policy" "pluto-vcenter-policy" {
@@ -21,7 +21,7 @@ resource "intersight_hyperflex_vcenter_config_policy" "pluto-vcenter-policy" {
   hostname    = "vcenter.brattice.dovetail-lab.ca"
   username    = "administrator@vsphere.local"
   password    = var.vcenter-password
-  data_center = "PLUTO"
+  data_center = "SOLIS"
 }
 
 resource "intersight_hyperflex_vcenter_config_policy" "saturn-vcenter-policy" {
@@ -34,7 +34,7 @@ resource "intersight_hyperflex_vcenter_config_policy" "saturn-vcenter-policy" {
   hostname    = "vcenter.brattice.dovetail-lab.ca"
   username    = "administrator@vsphere.local"
   password    = var.vcenter-password
-  data_center = "SATURN"
+  data_center = "SOLIS"
 }
 
 resource "intersight_hyperflex_vcenter_config_policy" "neptune-vcenter-policy" {
@@ -47,5 +47,5 @@ resource "intersight_hyperflex_vcenter_config_policy" "neptune-vcenter-policy" {
   hostname    = "vcenter.brattice.dovetail-lab.ca"
   username    = "administrator@vsphere.local"
   password    = var.vcenter-password
-  data_center = "NEPTUNE"
+  data_center = "SOLIS"
 }

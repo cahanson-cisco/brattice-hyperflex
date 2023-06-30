@@ -5,7 +5,7 @@ resource "intersight_hyperflex_software_version_policy" "mercury-hx-latest" {
   }
   tags = [local.terraform]
 
-  hxdp_version = "5.0(2c)"
+  hxdp_version = "5.0(2d)"
 }
 
 resource "intersight_hyperflex_software_version_policy" "pluto-hx-latest" {
@@ -15,7 +15,7 @@ resource "intersight_hyperflex_software_version_policy" "pluto-hx-latest" {
   }
   tags = [local.terraform]
 
-  hxdp_version = "5.0(2c)"
+  hxdp_version = "5.0(2d)"
 }
 
 resource "intersight_hyperflex_software_version_policy" "saturn-hx-latest" {
@@ -25,7 +25,7 @@ resource "intersight_hyperflex_software_version_policy" "saturn-hx-latest" {
   }
   tags = [local.terraform]
 
-  hxdp_version = "5.0(2c)"
+  hxdp_version = "5.0(2d)"
 }
 
 resource "intersight_hyperflex_software_version_policy" "neptune-hx-latest" {
@@ -35,5 +35,5 @@ resource "intersight_hyperflex_software_version_policy" "neptune-hx-latest" {
   }
   tags = [local.terraform]
 
-  hxdp_version = "5.0(2c)"
+  hxdp_version = "5.0(2d)"
 }
