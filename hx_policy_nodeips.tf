@@ -78,15 +78,15 @@ resource "intersight_hyperflex_node_config_policy" "neptune-nodeips-policy" {
   tags = [local.terraform]
 
   mgmt_ip_range {
-    start_addr = "10.0.49.11"
-    end_addr   = "10.0.49.14"
+    start_addr = "10.0.49.21"
+    end_addr   = "10.0.49.24"
     netmask    = "255.255.255.0"
     gateway    = "10.0.49.1"
   }
 
   hxdp_ip_range {
-    start_addr = "10.0.49.15"
-    end_addr   = "10.0.49.18"
+    start_addr = "10.0.49.25"
+    end_addr   = "10.0.49.28"
     netmask    = "255.255.255.0"
     gateway    = "10.0.49.1"
   }
