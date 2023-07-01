@@ -15,6 +15,7 @@ gateway:                    10.0.49.1
 dns:                        10.0.40.254
 node vlan:                  849
 hx-storage vlan:            850
+hx-connect dns:             mercury.brattice.dovetail-lab.ca
 hx-bench:                   10.0.49.201
 ```
 
@@ -29,11 +30,12 @@ gateway:                    10.0.49.1
 dns:                        10.0.40.254
 node vlan:                  849
 hx-storage vlan:            850
+hx-connect dns:             pluto.brattice.dovetail-lab.ca
 ```
 
 ### SATURN (3-node DC-no-FI)
 ```
-cluster ip address:         10.0.49.57
+cluster ip address:         10.0.49.24
 mac address prefix:         00:25:B5:03
 replication factor:         3
 saturn-1 ip (esxi/hxdp):    10.0.49.51 / 10.0.49.54
@@ -47,13 +49,13 @@ hx-storage vlan:            850
 
 ### NEPTUNE (4-node DC-no-FI)
 ```
-cluster ip address:         10.0.49.19
+cluster ip address:         10.0.49.23
 mac address prefix:         00:25:B5:04
 replication factor:         3
-neptune-1 ip (esxi/hxdp):   10.0.49.11 / 10.0.49.15
-neptune-2 ip (esxi/hxdp):   10.0.49.12 / 10.0.49.16
-neptune-3 ip (esxi/hxdp):   10.0.49.13 / 10.0.49.17
-neptune-4 ip (esxi/hxdp):   10.0.49.14 / 10.0.49.18
+neptune-1 ip (esxi/hxdp):   10.0.49.31 / 10.0.49.35
+neptune-2 ip (esxi/hxdp):   10.0.49.32 / 10.0.49.36
+neptune-3 ip (esxi/hxdp):   10.0.49.33 / 10.0.49.37
+neptune-4 ip (esxi/hxdp):   10.0.49.34 / 10.0.49.38
 gateway:                    10.0.49.1
 dns:                        10.0.40.254
 node vlan:                  849
