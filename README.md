@@ -15,6 +15,7 @@ gateway:                    10.0.49.1
 dns:                        10.0.40.254
 node vlan:                  849
 hx-storage vlan:            850
+hx-bench:                   10.0.49.201
 ```
 
 ### PLUTO (2-node EDGE)

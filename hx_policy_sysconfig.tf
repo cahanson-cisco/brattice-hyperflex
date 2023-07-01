@@ -5,7 +5,7 @@ resource "intersight_hyperflex_sys_config_policy" "mercury-sysconfig-policy" {
   }
   tags = [local.terraform]
 
-  dns_servers = ["10.0.10.22", "10.0.10.23"]
+  dns_servers = ["10.0.40.254"]
   ntp_servers = ["10.0.0.252", "10.0.0.253"]
   timezone    = "UTC"
 }
@@ -17,7 +17,7 @@ resource "intersight_hyperflex_sys_config_policy" "pluto-sysconfig-policy" {
   }
   tags = [local.terraform]
 
-  dns_servers = ["10.0.10.22", "10.0.10.23"]
+  dns_servers = ["10.0.40.254"]
   ntp_servers = ["10.0.0.252", "10.0.0.253"]
   timezone    = "UTC"
 }
@@ -29,7 +29,7 @@ resource "intersight_hyperflex_sys_config_policy" "saturn-sysconfig-policy" {
   }
   tags = [local.terraform]
 
-  dns_servers = ["10.0.10.22", "10.0.10.23"]
+  dns_servers = ["10.0.40.254"]
   ntp_servers = ["10.0.0.252", "10.0.0.253"]
   timezone    = "UTC"
 }
@@ -41,7 +41,7 @@ resource "intersight_hyperflex_sys_config_policy" "neptune-sysconfig-policy" {
   }
   tags = [local.terraform]
 
-  dns_servers = ["10.0.10.22", "10.0.10.23"]
+  dns_servers = ["10.0.40.254"]
   ntp_servers = ["10.0.0.252", "10.0.0.253"]
   timezone    = "UTC"
 }
